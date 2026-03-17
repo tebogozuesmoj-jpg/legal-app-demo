@@ -1,65 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <title>Dashboard</title>
 <link rel="stylesheet" href="css/style.css">
+
+<style>
+.container {
+display: flex;
+height: 100vh;
+}
+
+.sidebar {
+width: 220px;
+background: #0f172a;
+color: white;
+padding: 20px;
+}
+
+.sidebar h2 {
+margin-bottom: 30px;
+}
+
+.sidebar a {
+display: block;
+color: white;
+text-decoration: none;
+margin: 15px 0;
+}
+
+.main {
+flex: 1;
+padding: 20px;
+background: #f4f6f8;
+}
+
+.topbar {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.card {
+background: white;
+padding: 20px;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+</style>
 
 </head>
 
 <body>
 
-<header>
-<h2>Legal Learning App</h2>
+<div class="container">
 
-<nav>
-<a href="index.html">Home</a>
-</nav>
+<div class="sidebar">
+<div style="text-align:center; margin-bottom:20px;">
+    <img src="../assets/images/logo.jpeg" alt="Law Buddy Logo" style="width:120px;">
+    <p style="margin-top:10px; font-weight:bold;">LAW BUDDY</p>
+</div>
 
-</header>
-
-
-<section class="features">
-
-<h2>Dashboard</h2>
-
-<div class="grid">
-
-<a href="pages/courtroom.html" class="card">
-<h3>Virtual Courtroom</h3>
-</a>
-
-<a href="pages/quiz.html" class="card">
-<h3>Quiz Games</h3>
-</a>
-
-<a href="pages/webinars.html" class="card">
-<h3>Webinars</h3>
-</a>
-
-<a href="pages/research.html" class="card">
-<h3>Research Hub</h3>
-</a>
-
-<a href="pages/calendar.html" class="card">
-<h3>Calendar</h3>
-</a>
-
-<a href="pages/networking.html" class="card">
-<h3>Networking</h3>
-</a>
-
-<a href="pages/courses.html" class="card">
-<h3>Short Courses</h3>
-</a>
-
-<a href="pages/ai.html" class="card">
-<h3>AI Assistant</h3>
-</a>
+<a href="#">Home</a>
+<a href="pages/networking.html">Networking</a>
+<a href="pages/research.html">Research Hub</a>
+<a href="pages/courses.html">Courses</a>
+<a href="pages/quiz.html">Quiz</a>
+<a href="pages/learn.html">Learn</a>
+<a href="pages/courtroom.html">Courtroom</a>
+<a href="pages/webinars.html">Webinars</a>
+<a href="pages/calendar.html">Calendar</a>
+<a href="pages/ai.html">AI Assistant</a>
 
 </div>
 
-</section>
+<div class="main">
+
+<div class="topbar">
+<h2>Dashboard</h2>
+<p>Welcome back 👋</p>
+</div>
+
+<div class="card">
+<h3>Today's Activity</h3>
+<p>You have a webinar at 14:00 and a quiz scheduled.</p>
+</div>
+
+<div class="card">
+<h3>Quick Actions</h3>
+<p>Jump into a courtroom simulation or continue your course.</p>
+</div>
+
+</div>
+
+</div>
 
 </body>
 </html>

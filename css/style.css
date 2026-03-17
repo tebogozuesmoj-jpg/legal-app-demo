@@ -52,3 +52,72 @@ padding:20px;
 border-radius:8px;
 box-shadow:0 2px 6px rgba(0,0,0,0.1);
 }
+
+/* Layout */
+.container {
+display: flex;
+min-height: 100vh;
+}
+
+.sidebar {
+width: 230px;
+background: #0f172a;
+color: white;
+padding: 20px;
+}
+
+.sidebar h2 {
+margin-bottom: 30px;
+}
+
+.sidebar a {
+display: block;
+padding: 10px;
+margin-bottom: 8px;
+color: white;
+text-decoration: none;
+border-radius: 6px;
+}
+
+.sidebar a:hover {
+background: #1e293b;
+}
+
+.main {
+flex: 1;
+padding: 25px;
+background: #f4f6f8;
+}
+
+/* Cards */
+.card {
+background: white;
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 15px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Buttons */
+button {
+background: #f59e0b;
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 6px;
+cursor: pointer;
+}
+
+button:hover {
+opacity: 0.9;
+}
+
+/* Inputs */
+input, textarea {
+border: 1px solid #ddd;
+border-radius: 6px;
+}
+
+.sidebar img {
+border-radius: 10px;
+}

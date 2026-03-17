@@ -1,44 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <title>Networking</title>
 <link rel="stylesheet" href="../css/style.css">
 
+<style>
+.post {
+background: white;
+padding: 15px;
+border-radius: 8px;
+margin-bottom: 15px;
+}
+.post-header {
+font-weight: bold;
+margin-bottom: 10px;
+}
+.actions {
+margin-top: 10px;
+font-size: 14px;
+color: gray;
+}
+</style>
 </head>
 
 <body>
 
-<header>
+<div class="container">
+
+<div class="sidebar">
+<div style="text-align:center; margin-bottom:20px;">
+<img src="../assets/images/logo.jpeg" style="width:120px;">
+<p style="font-weight:bold;">LAW BUDDY</p>
+</div>
+
+<a href="../dashboard.html">Home</a>
+<a href="networking.html">Networking</a>
+<a href="research.html">Research Hub</a>
+<a href="courses.html">Courses</a>
+<a href="quiz.html">Quiz</a>
+<a href="courtroom.html">Courtroom</a>
+<a href="webinars.html">Webinars</a>
+<a href="calendar.html">Calendar</a>
+<a href="ai.html">AI Assistant</a>
+</div>
+
+<div class="main">
 
 <h2>Networking Feed</h2>
 
-<nav>
-<a href="../dashboard.html">Dashboard</a>
-</nav>
-
-</header>
-
-<section class="features">
-
-<h3>Community Feed</h3>
-
 <div class="card">
-<h4>Sarah M.</h4>
-<p>Just completed the Contract Law quiz!</p>
+<input type="text" placeholder="Share something..." style="width:100%; padding:10px;">
+<br><br>
+<button>Post</button>
 </div>
 
-<div class="card">
-<h4>Legal Webinar</h4>
-<p>Topic: Criminal Law Basics</p>
+<div class="post">
+<div class="post-header">Sarah M. • Law Student</div>
+<p>Just completed a contract law simulation 🔥</p>
+<div class="actions">Like • Comment • Share</div>
 </div>
 
-<div class="card">
-<h4>David K.</h4>
-<p>Looking for study partners for constitutional law.</p>
+<div class="post">
+<div class="post-header">Musa D. • Attorney</div>
+<p>Hosting a webinar this Friday.</p>
+<div class="actions">Like • Comment • Share</div>
 </div>
 
-</section>
+</div>
+
+</div>
 
 </body>
 </html>
