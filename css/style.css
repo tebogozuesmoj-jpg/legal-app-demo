@@ -121,3 +121,29 @@ border-radius: 6px;
 .sidebar img {
 border-radius: 10px;
 }
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+.container {
+flex-direction: column;
+}
+
+.sidebar {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 10px;
+}
+
+.sidebar a {
+margin: 5px;
+font-size: 14px;
+}
+
+.main {
+padding: 15px;
+}
+
+}
